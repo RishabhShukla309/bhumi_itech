@@ -1,0 +1,71 @@
+.cardWrapper {
+  background-color: var(--color-white);
+  width: 24rem;
+  height: 44rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  box-shadow: 0 9px 26px 0 #0000000F;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+.productName {
+  color: var(--color-black);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.priceContainer {
+width: 100%;
+}
+
+.discountedPrice {
+  color: var(--color-primary);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.originalPrice {
+  color: var(--color-gray-dark-3);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through
+}
+
+.rating {
+  color: var(--color-gray-dark-3);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  color: var(--color-primary)
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addToCartBtn {
+font-size: 1.6rem;
+}

@@ -1,0 +1,112 @@
+.newsletter {
+    background-color: var(--color-primary);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0 4rem;
+}
+
+.newsletterHeading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    color: var(--color-white);
+}
+
+.newsletterText {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: var(--color-white);
+}
+
+.inputContainer {
+    display: flex;
+    /*width: 60rem;*/
+    width: 100%;
+}
+
+.input {
+    flex: 1;
+    padding: 3rem 2rem;
+    font-size: 1.8rem;
+    color: var(--color-gray-dark-3);
+    font-weight: 400;
+    line-height: 2.4rem;
+    -webkit-border-top-left-radius: 1rem;
+    -webkit-border-bottom-left-radius: 1rem;
+    -moz-border-radius-topleft: 1rem;
+    -moz-border-radius-bottomleft: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.newsletterBtn {
+    padding-right: 1rem;
+    background-color: var(--color-white);
+    -webkit-border-top-right-radius: 1rem;
+    -webkit-border-bottom-right-radius: 1rem;
+    -moz-border-radius-topright: 1rem;
+    -moz-border-radius-bottomright: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.19);
+    border: none;
+    cursor: hand;
+}
+
+.subscribe {
+    padding: 2rem 2.2rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--color-white);
+    background-color: var(--color-gray-dark-2);
+    border-radius: 1rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1028px) {
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        margin-right: 0;
+    }
+
+    .inputContainer {
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .textContainer {
+        margin: 0;
+    }
+
+    .leftContainer img {
+        display: none;
+    }
+}

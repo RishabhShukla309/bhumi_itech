@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--color-primary);
+    padding: 1.4rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftContainer, .rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconLabelWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.label {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .rightContainer{
+        margin-top: 2rem;
+    }
+}
